@@ -17,6 +17,7 @@ public class IntArrayList implements IntList {
         arr[size]=element;
         size++;
     }
+
     @Override
     public boolean add(int index, int element) {
         /*new array for the temporary storage of elements
