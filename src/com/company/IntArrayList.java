@@ -54,17 +54,17 @@ public class IntArrayList implements IntList {
     @Override
     public void clear(){
         size=0;
-    };
+    }
 
     @Override
     public int get(int index){
         return arr[index];
-    };
+    }
 
     @Override
     public boolean isEmpty() {
         return size == 0;
-    };
+    }
 
     @Override
     public boolean remove(int index) {
@@ -77,7 +77,7 @@ public class IntArrayList implements IntList {
             return true;
         }
         return false;
-    };
+    }
 
     @Override
     public boolean removeByValue(int value) {
@@ -95,7 +95,7 @@ public class IntArrayList implements IntList {
         }
         size=size-count;
         return flag;
-    };
+    }
 
     @Override
     public boolean set(int index, int element) {
@@ -104,12 +104,12 @@ public class IntArrayList implements IntList {
             return true;
         }
         return false;
-    };
+    }
 
     @Override
     public int size(){
         return arr.length;
-    };
+    }
 
     @Override
     public  IntArrayList subList(int fromIndex, int toIndex) {
@@ -121,7 +121,7 @@ public class IntArrayList implements IntList {
             return newArr;
         }
         return null;
-    };
+    }
 
     @Override
     public int[] toArray() {
